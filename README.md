@@ -9,3 +9,7 @@ curl -O https://download1.rstudio.org/desktop/xenial/amd64/rstudio-1.3.1056-amd6
 sudo gdebi rstudio-1.3.1056-amd64.deb
 rstudio
 ```
+
+### Data sets for free: 
+http://archive.ics.uci.edu/ml/index.php
+
