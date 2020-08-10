@@ -19,3 +19,12 @@ http://archive.ics.uci.edu/ml/index.php
 ```shell
 sudo apt-get install libcurl4-openssl-dev libxml2-dev
 ```
+
+### To install Tidyverse
+```r
+install.packages("rsample")
+install.packages("recipes")
+install.packages("parsnip")
+install.packages("yardstick")
+install.packages("remotes")
+```
