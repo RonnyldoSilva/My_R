@@ -20,11 +20,25 @@ http://archive.ics.uci.edu/ml/index.php
 sudo apt-get install libcurl4-openssl-dev libxml2-dev
 ```
 
-### Dependecies to install Tidyverse
+### To install Tidyverse
 ```r
 install.packages("rsample")
 install.packages("recipes")
 install.packages("parsnip")
 install.packages("yardstick")
 install.packages("remotes")
+```
+
+### To install devtools for R:
+```shell
+#on terminal:
+sudo apt-get -y build-dep libcurl4-gnutls-dev
+sudo apt-get -y install libcurl4-gnutls-dev
+sudo apt-get install libcurl4-openssl-dev libssl-dev
+```
+```R
+#on R:
+install.packages('devtools')
+#to install here package:
+devtools::install_github("krlmlr/here")
 ```
