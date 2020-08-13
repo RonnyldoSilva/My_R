@@ -42,3 +42,16 @@ install.packages('devtools')
 #to install here package:
 devtools::install_github("krlmlr/here")
 ```
+
+### Correlation Matrix Plot
+```r
+corr_matrix <- cor(summary_training_data %>% 
+                   select(-c("field_code", "cut_number")), 
+                   method = "spearman")
+corrplot(corr_matrix, type="lower", 
+         order="hclust", 
+         method = "circle",
+         # addCoef.col = "black",
+         col=brewer.pal(n=8, name="RdYlBu"), 
+         tl.srt=10)
+```
