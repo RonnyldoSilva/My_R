@@ -20,7 +20,7 @@ http://archive.ics.uci.edu/ml/index.php
 sudo apt-get install libcurl4-openssl-dev libxml2-dev
 ```
 
-### To install Tidyverse
+### To install Tidyverse:
 ```r
 install.packages("rsample")
 install.packages("recipes")
@@ -43,7 +43,7 @@ install.packages('devtools')
 devtools::install_github("krlmlr/here")
 ```
 
-### Correlation Matrix Plot
+### Correlation Matrix Plot:
 ```r
 corr_matrix <- cor(summary_training_data %>% 
                    select(-c("field_code", "cut_number")), 
