@@ -34,7 +34,7 @@ sudo apt-get install libcurl4-openssl-dev libxml2-dev
 ```
 
 ### To install Tidyverse and Tidymodels:
-#### <span style="color:blue">Open RStudio:</span>
+#### Open RStudio:
 ```r
 install.packages("rsample")
 install.packages("recipes")
