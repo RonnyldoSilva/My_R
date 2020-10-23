@@ -71,3 +71,10 @@ corrplot(corr_matrix, type="lower",
          col=brewer.pal(n=8, name="RdYlBu"), 
          tl.srt=10)
 ```
+
+### Remove NA's
+```{r, warning=FALSE, message=FALSE, include=FALSE}
+# Replace NA's to 0
+data_train_weather[features_train][is.na(data_train_weather[features_train])] <- 0
+data_test_weather[features][is.na(data_test_weather[features])] <- 0
+```
