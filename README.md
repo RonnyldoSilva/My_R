@@ -87,3 +87,8 @@ R> x
 R> unique(x)
 [1] 1 2 3 4
 ```
+
+### Merge two dataframes
+```r
+merge(data1, data2)
+```
