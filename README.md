@@ -78,3 +78,12 @@ corrplot(corr_matrix, type="lower",
 data_train_weather[features_train][is.na(data_train_weather[features_train])] <- 0
 data_test_weather[features][is.na(data_test_weather[features])] <- 0
 ```
+
+### Get unique valeus from a column
+```r
+R> x = c(1,1,2,3,4,4,4)
+R> x
+[1] 1 1 2 3 4 4 4
+R> unique(x)
+[1] 1 2 3 4
+```
