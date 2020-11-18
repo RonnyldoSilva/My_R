@@ -31,6 +31,7 @@ http://archive.ics.uci.edu/ml/index.php
 ### If have problem to install some packages on Ubuntu:
 ```shell
 sudo apt-get install libcurl4-openssl-dev libxml2-dev
+sudo apt-get install -y r-cran-httr
 ```
 
 ### To install Tidyverse and Tidymodels:
